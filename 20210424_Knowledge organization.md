@@ -1,9 +1,12 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
+[TOC]
+
 # Knowledge structure
 
 ## Introduction
-In order to facilitate the management of contents by Humane, two knowledge structures will be used. The first one is an hierarchy going from the general (Theme) to the specific (Affair) topic of study. Being an hierarchy implies contention: the level below is comprised on the upper levels. The second structure are contents and parts. They are independent objects and are connected by use, not ownership.
+
+In order to facilitate the management of contents by Humane, two knowledge structures will be used. The first one is an hierarchy going from the general (Theme) to the specific (Affair) topics of study. An hierarchy implies ownership: the level below is comprised on the upper levels. The second structure has no hierarchical links, but objects related by use: contents and parts.
 
 In the next sections all objects will be detailed to the data dictionary level.
 
@@ -12,7 +15,7 @@ In the next sections all objects will be detailed to the data dictionary level.
 **Attributes shared by all objetcs:**
 
 - Status: it allows for the object life cycle management. No object is ever deleted.
-	- Value: it identifies the current status. The values are restrained by a value list. The value is defined based on the available status dates.
+	- Value: it identifies the current status. The values are restrained by a value list. The value is automatically defined based on the available status dates.
 	- Creation date: date when the object was created.
 	- Testing start date: date when the object started the testing phase.
 	- Activation date: date when the object was released to use.
