@@ -59,7 +59,6 @@ In the next sections all objects will be detailed to the data dictionary level.
 	- Media: It defines the type of media file (ex. video, audio, text, etc). It is constrained by a value list.
 	- Complete path: Path to access the file.
 
-
 ## Diagrams
 
 ```mermaid
