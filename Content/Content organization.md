@@ -94,6 +94,3 @@ erDiagram
 	CONTENT }o--o{ THEME : "teaches"
 	COURSE }|--o{ THEME : "teaches"
 	COURSE }o--o{ PATH : "teaches"
-
-
-
