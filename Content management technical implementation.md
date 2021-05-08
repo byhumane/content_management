@@ -20,4 +20,4 @@ GCS will be used to store and serve contents and parts. One bucket will be dedic
 # LMS population
 Hierarchy, groups and contents with status 02 Testing and 03 Active will be created at the LMS. Hierarchy will give origin to courses. Contents are to be uploaded to form the course activities. Groups will generate categories and groups.
 
-At first, all integration will be done by hand.
+At first, all integration will be done by hand. The details are covered on the LMS documentation.
